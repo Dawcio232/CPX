@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CPX Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo"><a href="index.html">CPX</a></div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="authors.html">Authors</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="section">
+      <div class="container">
+        <h1>Projects</h1>
+        <p>
+          A selection of things we are building now or planning to
+          release soon.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-info">
+              <h2>Minecraft Creator Toolkit</h2>
+              <p>
+                A collection of datapacks, scripts, and small tools that
+                help Minecraft creators test mechanics, build maps, and
+                manage worlds faster.
+              </p>
+              <ul class="project-meta">
+                <li><span>Type:</span> Game tools</li>
+                <li><span>Status:</span> In development</li>
+                <li><span>Tech:</span> Datapacks, Python, JSON</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-info">
+              <h2>Raspberry Pi Automation Suite</h2>
+              <p>
+                Scripts that turn a Raspberry Pi into a small
+                automation hub, with input emulation and simple
+                monitoring.
+              </p>
+              <ul class="project-meta">
+                <li><span>Type:</span> System tools</li>
+                <li><span>Status:</span> Prototype</li>
+                <li><span>Tech:</span> Python, Bash</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-info">
+              <h2>CPX Control Board</h2>
+              <p>
+                Concept for a custom PCB focused on keyboard macros,
+                gaming shortcuts, and quick developer actions.
+              </p>
+              <ul class="project-meta">
+                <li><span>Type:</span> Hardware concept</li>
+                <li><span>Status:</span> Design phase</li>
+                <li><span>Tech:</span> Microcontrollers, CircuitPython</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> CPX — Computer Programming X.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
